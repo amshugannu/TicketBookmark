@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieFlix</title>
+  <link rel="stylesheet" href="2.css">
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <nav>
+        <!--logo--------------->
+        <a href="#" class="logo">
+            <img src="\images\logo2.png"/>
+        </a>
+        <!--menu--btn----------------->
+        <input type="checkbox" class="menu-btn" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------------->
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#movies">Movies</a></li>
+            <li><a href="#Anime">Anime</a></li>
+            <li><a href="#Tollywood">Tollywood</a></li>
+            <li><a href="#Bollywood">Bollywood</a></li>
+            <li><a href="#Hollywood">Hollywood</a></li>
+
+        </ul>
+        <!--search------------->
+        <div class="search">
+            <input type="text" placeholder="Find Your Favourtie Movies"/>
+            <!--search-icon----------->
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="container">
+          <h1 class="Recently-added-heading">Recently-added</h1>
+          <div class="Recently-added">
+            <div class="slide-controls">
+                <i style="font-size:24px" class="fa" id="slide-left">&#xf053;</i>
+                <i style="font-size:24px" class="fa" id="slide-right">&#xf054;</i>
+            </div>
+            <div class="Recently-added-inner">
+              <img src="images/s-1.jpg"/>
+              <img src="images/s-2.jpg"/>
+              <img src="images/s-3.jpg"/>
+              <img src="images/s-4.jpg"/>
+              <img src="images/s-5.png"/>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="latest">
+        <div class="container">
+            <h1 class="latest-heading">Best Of Hollywood</h1>
+
+            <div class="latest-outer">
+                <div class="latest-slide-controls">
+                    <i style="font-size:24px" class="fa" id="latest-slide-left">&#xf053;</i>
+                    <i style="font-size:24px" class="fa" id="latest-slide-right">&#xf054;</i>
+                    
+                </div>
+                <div class="latest-inner">
+                    
+
+                    <div class="latest-box">
+                        <!--img-------->
+                            <div class="latest-b-img">
+                                <img src="images/m-1.jpg">
+                            </div>
+                        <!--text---------->
+                            <div class="latest-b-text">
+                                <strong>Avengers Endgame</strong>
+                                <p>Action|Adventure|Fantasy</p>
+                            </div>
+                    </div>
+
+                    <div class="latest-box">
+                        <!--img-------->
+                        <div class="latest-b-img">
+                            <img src="images/m-5.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="latest-b-text">
+                            <strong>Venom II</strong>
+                            <p>Action|Horror|Sci-fi</p>
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <!--img-------->
+                            <div class="latest-b-img">
+                                <img src="images/m-2.jpg">
+                            </div>
+                        <!--text---------->
+                            <div class="latest-b-text">
+                                <strong style="font-size: 13px;">Black Panther: Wakanda Forever</strong>
+                                <p>Action|Adventure|Drama</p>
+                            </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/m-11.avif">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong >Avatar: The Way of Water</strong>
+                            <p>Action|Adventure|Fantasy</p>
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/m-13.avif">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong >Extraction 2</strong>
+                            <p>Drama</p>
+                        </div>
+                    </div>
+
+
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/m-9.avif">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong style="font-size: 13px;">Spider-Man: Far From Home</strong>
+                            <p>Action|Adventure|Sci-fi</p>
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/m-10.avif">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong style="font-size: 13px;">Ant-Man and the Wasp: Quantumania</strong>
+                            <p>Action|Adventure|Sci-fi</p>
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <!--img-------->
+                        <div class="latest-b-img">
+                            <img src="images/m-3.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="latest-b-text">
+                            <strong>Inception</strong>
+                            <p>Action|Adventure|Sci-fi</p>
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <div class="latest-b-img">
+                            <img src="images/m-12.avif">
+                        </div>
+                        <div class="latest-b-text">
+                            <strong>Black Adam</strong>
+                            <p>Action|Adventure|Sci-fi</p>
+                        </div>
+                    </div>
+                    <div class="latest-box">
+                        <!--img-------->
+                        <div class="latest-b-img">
+                            <img src="images/m-6.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="latest-b-text">
+                            <strong>Peninsula</strong>
+                            <p>Action|Horror|Thriller</p>
+                        </div>
+                    </div>
+                    
+                    <div class="latest-box">
+                        <!--img-------->
+                        <div class="latest-b-img">
+                            <img src="images/m-4.jpg">
+                        </div>
+                        <!--text---------->
+                        <div class="latest-b-text">
+                            <strong>Iron Man 3</strong>
+                            <p>Action|Adventure|Sci-fi</p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="latest-box">
+                        <!--img-------->
+                        <div class="latest-b-img">
+                            <img src="images/m-7.jpeg">
+                        </div>
+                        <!--text---------->
+                        <div class="latest-b-text">
+                            <strong>Jungle Cruise</strong>
+                            <p>Adventure|Comedy|Family</p>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+<div class="outerbox">
+    <div class="movies-heading" id="Tollywood">
+        <h2>Tollywood Movies</h2>
+    </div>
+    <section id="movies-list">
+        <!--box-1------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/T-1.avif">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=roX7EqczsUs">
+                Tillu Square (2024)
+            </a>
+
+        </div>
+         <!--box-2------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/T-10.webp">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=4GPvYMKtrtI">
+               Salaar (2024) 
+            </a>
+        </div>
+         <!--box-3------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/T-11.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=2sX0lElZKQE">
+                Eagle (2024) 
+            </a>
+        </div>
+         <!--box-4------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/T-15.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=bk_5n4mS-lk">
+                Kushi (2023)
+        </div>
+         <!--box-5------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img" style="height: 360px;">
+                <img src="images/T-3.avif">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=YtfdvDd31Kk">
+                GodFather (2023) 
+            </a>
+        </div>
+         <!--box-6------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/T-6.avif">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=NgBoMJy386M">
+                RRR (2022) 
+            </a>
+        </div>
+         <!--box-7------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/T-5.avif">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=HNnt00swZ5Q">
+                Saaho (2019) 
+            </a>
+        </div>
+         <!--box-8------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/T-16.webp">
+            </div>
+            <!--text--------->
+            <a href="https://youtube.com/watch?v=q8M6Ybjr2Wc">
+                Guntur Karam (2024) 
+            </a>
+        </div>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/T-13.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=GP6DRJwGjcE">
+                Dasara (2023) 
+            </a>
+        </div>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/T-14.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=Ljk6tGZ1l3A">
+                Sita Ramam (2022) 
+            </a>
+        </div>
+        
+    </section>
+</div>
+
+<div class="outerbox">
+    <div class="movies-heading" id="Bollywood">
+        <h2>Bollywood Movies</h2>
+    </div>
+    <section id="movies-list">
+        <!--box-1------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/B-8.webp">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=MWOlnZSnXJo">
+                Jawan (2023) 
+            </a>
+        </div>
+         <!--box-2------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/B-9.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=8FkLRUJj-o0">
+                Animal (2023) 
+            </a>
+        </div>
+         <!--box-3------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/B-1.avif">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=IGzLHNPO4QI">
+                Bade Miyan Chote Miyan (2024) 
+            </a>
+        </div>
+         <!--box-4------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/B-5.avif">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=RiANSSgCuJk">
+                Kabir Singh (2019) 
+            </a>
+        </div>
+         <!--box-5------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/B-10.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=lAVYll_wBeY">
+                Fighter (2024) 
+            </a>
+        </div>
+         <!--box-6------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/B-11.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=Zd69FfhBmSc">
+                Dunki (2023) 
+            </a>
+        </div>
+         <!--box-7------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/B-12.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=BUjXzrgntcY">
+                Brahmastra (2022) 
+            </a>
+        </div>
+         <!--box-8------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/B-13.jpg_large">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=F2lN25IayH8">
+                Baaghi 2 (2018) 
+            </a>
+        </div>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/B-14.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=vEjTUDjjU6A">
+                Tiger 3 (2018) 
+            </a>
+        </div>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/B-15.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=6mdxy3zohEk">
+                Rocky Aur Rani Kii Prem Kahaani (2018) 
+            </a>
+        </div>
+    </section>
+</div>
+<div class="outerbox">
+    <div class="movies-heading" id="Hollywood">
+        <h2>Hollywood Movies</h2>
+    </div>
+    <section id="movies-list">
+        <!--box-1------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/H-1.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=g8evyE9TuYk">
+                The Dark Knight Rises (2012) 
+            </a>
+        </div>
+         <!--box-2------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/H-7.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=n9xhJrPXop4">
+                Dune Part I (2021) 
+            </a>
+        </div>
+         <!--box-3------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/l-1.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=mdgRx94W5ko">
+                Star Trek Into Darkness (2013) 
+            </a>
+        </div>
+         <!--box-4------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/H-3.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=bK6ldnjE3Y0">
+                Oppenheimer (2023) 
+            </a>
+        </div>
+         <!--box-5------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/l-7.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=frdj1zb9sMY">
+                Rogue one (2016) 
+            </a>
+        </div>
+         <!--box-6------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/l-2.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=ViuDsy7yb8M">
+                Fantastic Beasts and Where to Find Them (2016)
+            </a>
+        </div>
+         <!--box-7------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/H-6.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=iKUzhzustok">
+                Sherlock Holmes (2009) 
+            </a>
+        </div>
+         <!--box-8------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/H-5.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=eHp3MbsCbMg">
+                Uncharted (2022) 
+            </a>
+        </div>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/H-2.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=LbfMDwc4azU">
+                The Lord of the Rings: The Two Towers (2003) 
+            </a>
+        </div>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/H-8.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=A27xPYvqERw">
+                Oblivion (2013) 
+            </a>
+        </div>
+
+    </section>
+</div>
+
+<div class="outerbox">
+    <div class="movies-heading" id="Anime">
+        <h2>Anime Movies</h2>
+    </div>
+    <section id="movies-list">
+        <!--box-1------------------------>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/A-1.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=bFwdl2PDAFM">
+                Demon Slayer the Movie: Mugen Train (2020) 
+            </a>
+        </div>
+         <!--box-2------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/A-2.jpeg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=hlnPBMUl5VQ">
+                Haikyuu!! The Movie: Decisive Battle at the Garbage Dump (2024) 
+            </a>
+        </div>
+         <!--box-3------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/A-3.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=xU47nhruN-Q">
+                Your Name. (2016) 
+            </a>
+        </div>
+         <!--box-4------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/A-4.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=Q6iK6DjV_iE">
+                Weathearing With You (2019) 
+            </a>
+        </div>
+         <!--box-5------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/A-5.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=wdM7athAem0">
+                5 Centimeters Per Second (2007) 
+            </a>
+        </div>
+         <!--box-6------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/A-6.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=FMabhvDoolc">
+                Garden of Words (2013)
+            </a>
+        </div>
+         <!--box-7------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/A-7.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=VmOLSoEzLoc">
+                Sword Art Online Progressive: Aria of a Starless Night (2021) 
+            </a>
+        </div>
+         <!--box-8------------------------>
+         <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/A-8.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=5pTcio2hTSw">
+                Suzume (2022) 
+            </a>
+        </div>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/A-9.webp">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=sBLsE-NKEoI">
+                Attack on Titan Final Season Part 2 (2022) 
+            </a>
+        </div>
+        <div class="movies-box">
+            <!--img------------>
+            <div class="movies-img">
+                <img src="images/A-10.jpg">
+            </div>
+            <!--text--------->
+            <a href="https://www.youtube.com/watch?v=UPRqnFnnrr8">
+                Jujutsu Kaisen 0 (2021) 
+            </a>
+        </div>
+
+    </section>
+</div>
+
+
+
+    
+
+    
+    <script>
+        $(document).ready(function() {
+          $("#slide-left").click(function() {
+            $(".Recently-added-inner").animate({ scrollLeft: "-=450px" }, "fast");
+          });
+    
+          $("#slide-right").click(function() {
+            $(".Recently-added-inner").animate({ scrollLeft: "+=450px" }, "fast");
+          });
+
+          $("#latest-slide-left").click(function() {
+            $(".latest-inner").animate({ scrollLeft: "-=600px" }, "slow");
+          });
+
+          $("#latest-slide-right").click(function() {
+            $(".latest-inner").animate({ scrollLeft: "+=600px" }, "slow");
+          });  
+        });
+    </script>
+</body>
+
+
