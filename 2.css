@@ -412,11 +412,29 @@ nav .menu-btn{
 
 
   .outerbox{
-    margin: 50px;
-    padding: 10px;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
 
+/* Adjustments for mobile devices */
+@media only screen and (max-width: 768px) {
+  .movies-box {
+    max-width: calc(50% - 40px); /* Two boxes in a row with margin included */
   }
+  .movies-img {
+    height: 200px; /* Decrease the height of movie box image */
+  }
+
+}
+
+/* Adjustments for tablets and larger devices */
+@media only screen and (min-width: 769px) {
+  .movies-box {
+    max-width: calc(33.33% - 40px); /* Three boxes in a row with margin included */
+  }
+}
+
 
 
 
