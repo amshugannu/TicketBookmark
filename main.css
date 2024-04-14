@@ -1,27 +1,89 @@
 /* Custom styles for header */
 .nav_bar {
     background-color: #f8f9fa; /* Light gray background */
-    padding: 10px 0; /* Padding top and bottom */
+    padding: 10px 0; /* Increase padding top and bottom for better spacing */
 }
 
-.nav_logo {
-    display: flex;
-    align-items: center; /* Center vertically */
+.nav_logo img {
+    max-width: 200px; /* Set maximum width for the logo */
+    height: auto; /* Maintain aspect ratio */
 }
-
 .search-bar {
-    flex: 1; /* Take remaining space */
+    width: 100%; /* Ensure search bar takes full width */
+    padding: 12px 15px; /* Increase padding for better spacing */
+    border-radius: 5px; /* Add border radius */
+    border: 1px solid #ced4da; /* Add border */
+    background-color: #fff; /* Set background color */
+    font-size: 16px; /* Set font size */
+    color: #495057; /* Set text color */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Add transition for smooth effect */
+}
+
+.search-bar:focus {
+    border-color: #80bdff; /* Change border color when focused */
+    outline: 0; /* Remove default focus style */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add box shadow when focused */
+}
+
+.search-btn {
+    border-top-right-radius: 5px; /* Add border radius */
+    border-bottom-right-radius: 5px; /* Add border radius */
+    border: 1px solid #ced4da; /* Add border */
+    border-left: none; /* Remove left border */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; /* Add transition for smooth effect */
+
+}
+.search-btn i {
+    font-size: 18px; /* Adjust icon size */
+}
+
+.search-btn:hover {
+    background-color: #0056b3; /* Change background color on hover */
+    border-color: #0056b3; /* Change border color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+
+
+.form-select {
+    width: 100%; /* Ensure select takes full width */
+    padding: 10px; /* Increase padding */
+    border-radius: 5px; /* Add border radius */
+    border: 1px solid #ced4da; /* Add border */
+    background-color: #fff; /* Set background color */
 }
 
 @media (max-width: 768px) {
     /* Responsive styles for smaller screens */
-    .nav_logo {
-        justify-content: center; /* Center horizontally */
+    .nav_bar {
+        padding: 10px 0; /* Increase padding top and bottom for better spacing */
+    }
+    
+    .search-bar {
+        margin-bottom: 10px; /* Add space below the search bar */
+    }
+    
+    .form-select {
+        margin-top: 10px; /* Add space above the select */
+    }
+    
+    .nav_logo img {
+        max-width: 150px; /* Decrease size of logo on mobile */
+    }
+    .search-btn {
+        padding: 10px 12px; /* Decrease padding for smaller devices */
+        font-size: 14px; /* Decrease font size for smaller devices */
+        height:38px;
     }
     .search-bar {
-        margin: 10px 0; /* Adjust margin for smaller screens */
+        padding: 10px 12px; /* Decrease padding for smaller devices */
     }
+
 }
+
+
 
 #header-outer-container{
     margin:0px;
@@ -606,5 +668,3 @@
   
   }
   
-
-
