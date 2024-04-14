@@ -425,8 +425,12 @@ nav .menu-btn{
   .movies-img {
     height: 200px; /* Decrease the height of movie box image */
   }
-
+  .movies-box a {
+    font-size: 10px; /* Decrease font size of movie-box links */
+    margin: 10px;
+  }
 }
+
 
 /* Adjustments for tablets and larger devices */
 @media only screen and (min-width: 769px) {
@@ -434,12 +438,3 @@ nav .menu-btn{
     max-width: calc(33.33% - 40px); /* Three boxes in a row with margin included */
   }
 }
-
-
-
-
-  
-
-
-
-
