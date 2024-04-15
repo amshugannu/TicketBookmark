@@ -3,25 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="formstyle.css">
-    <script src="javascript.js">
-        
-    </script>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Signup.css">
+    <script src="javascript.js"></script>
 </head>
 <body>
-    <div>
+    <div class="container">
         <form onsubmit="return validateform()" action="Signin.html">
-            <h1>Sign Up...</h1>
+            <h1>Sign Up</h1>
             <label for="name">First Name</label>
-            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="name" placeholder="Enter your name">
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="email@example.com">
+            <input type="email" id="email" placeholder="Enter your email">
             <label for="password">Password</label>
-            <input type="password" id="password" placeholder="password">
+            <input type="password" id="password" placeholder="Enter your password">
             <label for="confirmPassword">Confirm Password</label>
-            <input type="password" id="confirmPassword" placeholder="confirm password">
-            <input type="submit" class="subid" value="Submit">
+            <input type="password" id="confirmPassword" placeholder="Confirm your password">
+            <input type="submit" class="submit-button" value="Sign Up">
         </form>
         <p>By clicking the Sign Up button, you agree to our<br>
         <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a></p>
