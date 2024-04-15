@@ -3,7 +3,7 @@
     margin: 0px;
 }
 body {
-    background-image: url('/images/A1.avif');
+    background-image: url('/images/signupbg.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -18,10 +18,12 @@ body {
 div {
     margin: 100px 20px;
     background-color: rgba(143, 188, 179, 0.689);
-    width: 250px;
+    width: 200px;
+    height: 300px;
     padding: 20px 30px;
     border-radius: 15px;
     text-align: center; 
+    border:solid 1px rgba(143, 188, 179, 0.689) ;
 }
 
 label {
